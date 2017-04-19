@@ -34,7 +34,7 @@ opcionalmente el tiempo de conexión de cada puerto.
 
 # ¿Qué licencia usa?
 
-Es software liberado con la licencia GPLv3.
+Software liberado con licencia GPLv3.
 
 
 
