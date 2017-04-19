@@ -10,7 +10,9 @@ para poder ser ejecutado como "/usr/bin" y habiéndole dado permisos de ejecuci�
 
 Tiene dos modos básicos de funcionamiento:
 
-## El modo "-c" escanea los puertos más utilizados, además proporciona el nombre del servicio que suele estar tras dicho puerto a través de un diccionario, la sintaxis sería:
+## Modo "common"
+
+El modo "-c" escanea los puertos más utilizados, además proporciona el nombre del servicio que suele estar tras dicho puerto a través de un diccionario, la sintaxis sería:
 
 sps -c ip/host <time>
 
@@ -19,7 +21,9 @@ Ejemplo: sps -c miservidorweb.com 2
 Time es un parámetro opcional que se le puede pasar al script para establecer el tiempo en segundos que va a esperar para 
 intentar establecer conexión con cada puerto, sino se especifica, por defecto es 1.
 
-## El modo "-r" escanea los puertos dentro de un rango:
+## Modo "range"
+
+El modo "-r" escanea los puertos dentro de un rango:
 
 sps -r ip/host puerto_inicial puerto_final <time>
 
