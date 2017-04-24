@@ -1,11 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+
  
 
-"""Copyright (C) 2017 Francisco Domínguez Lerma
-
- 	Author: Francisco Domínguez Lerma <f>
-
+"""Copyright 2017 Francisco Dominguez Lerma
+ 	Author: Francisco Dominguez Lerma
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -60,7 +59,7 @@ def scan_common(target, time=1):
 def main():
 	try:
 		if(sys.argv[1]=="--help"):
-			print("sps 1.0 versión")
+			print("sps 1.0 version")
 			print("USE:")
 			print("common ports scan:")
 			print("sps -c host/ip timeout(optional)")
