@@ -1,6 +1,8 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
  
-"""
-Copyright (C) 2017 Francisco Domínguez Lerma
+
+"""Copyright (C) 2017 Francisco Domínguez Lerma
 
  	Author: Francisco Domínguez Lerma <f>
 
@@ -16,10 +18,8 @@ Copyright (C) 2017 Francisco Domínguez Lerma
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-"""
+    along with this program.  If not, see <http://www.gnu.org/licenses/>."""
 
-#!/usr/bin/python
 
 import socket
 import sys
