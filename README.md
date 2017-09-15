@@ -5,8 +5,13 @@ sea completamente funcional y útil.
 
 # ¿Cómo utilizar sps?
 
-Está pensado para utilizarse como un comando pasándole parámetros, una vez el fichero "sps.py" esté hubicado en algura ruta 
-para poder ser ejecutado como "/usr/bin" y habiéndole dado permisos de ejecución, podremos hacer uso de él.
+Está pensado para utilizarse como un comando pasándole parámetros por lo que debe ser instalado en /usr/bin.
+Se ha añadido un script para instalarlo, simplemente ejecute como super usuario:
+
+chmod +x install.sh
+./install.sh
+
+Este script simplemente copiará "sps.py" en /usr/bin/sps y le dará permisos de ejecución, en caso de que el script falle puede realizar esta acción usted mismo manualmente.
 
 Tiene dos modos básicos de funcionamiento:
 
