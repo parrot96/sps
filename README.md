@@ -3,6 +3,8 @@
 Es un simple escáner de puertos escrito en python, su finalidad es desarrollar un escáner lo más simple posible pero que 
 sea completamente funcional y útil.
 
+![captura_sps](http://subirimagen.me/uploads/20170915112049.png)
+
 # ¿Cómo utilizar sps?
 
 Está pensado para utilizarse como un comando pasándole parámetros por lo que debe ser instalado en /usr/bin.
@@ -10,7 +12,6 @@ Se ha añadido un script para instalarlo, simplemente ejecute como super usuario
 
 ```
 chmod +x install.sh
-
 ./install.sh
 ```
 Este script simplemente copiará "sps.py" en /usr/bin/sps y le dará permisos de ejecución, en caso de que el script falle puede realizar esta acción usted mismo manualmente.
