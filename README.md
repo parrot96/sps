@@ -32,6 +32,10 @@ Ejemplo: sps -r miservidorweb.com 10 100 2
 En este ejemplo escanearía desde el puerto 10 hasta el 100, notar que en este modo también se puede establecer 
 opcionalmente el tiempo de conexión de cada puerto.
 
+# No me colorea la sintaxys ¿Qué hago?
+
+Para que sps funcione correctamente necesita ser ejecutado con python3, con python2 puede presentar problemas al colorear el output.
+
 # ¿Qué licencia usa?
 
 Software liberado con licencia GPLv3.
