@@ -1,14 +1,14 @@
 # ¿Qué es sps?
 
-Es un simple escáner de puertos escrito en python, su finalidad es desarrollar un escáner lo más simple posible pero que 
+Es un simple escáner de puertos escrito en python 3, su finalidad es desarrollar un escáner lo más simple posible pero que 
 sea completamente funcional y útil.
 
 ![captura_sps](http://subirimagen.me/uploads/20170915112049.png)
 
 # ¿Cómo utilizar sps?
 
-Está pensado para utilizarse como un comando pasándole parámetros por lo que debe ser instalado en /usr/bin.
-Se ha añadido un script para instalarlo, simplemente ejecute como super usuario:
+Está pensado para utilizarse como un comando pasándole parámetros, por lo que debe ser instalado en /usr/bin.
+Se ha añadido un script para instalarlo, simplemente ejecute como superusuario:
 
 ```
 chmod +x install.sh
@@ -22,7 +22,7 @@ Tiene dos modos básicos de funcionamiento:
 
 El modo "-c" escanea los puertos más utilizados, además proporciona el nombre del servicio que suele estar tras dicho puerto a través de un diccionario, la sintaxis sería:
 
-sps -c ip/host <time>
+sps -c ip/host \<time\>
 
 Ejemplo: ```sps -c miservidorweb.com 2```
 
@@ -33,7 +33,7 @@ intentar establecer conexión con cada puerto, sino se especifica, por defecto e
 
 El modo "-r" escanea los puertos dentro de un rango:
 
-sps -r ip/host puerto_inicial puerto_final <time>
+sps -r ip/host puerto_inicial puerto_final \<time\>
 
 Ejemplo: ```sps -r miservidorweb.com 10 100 2```
 
@@ -42,7 +42,7 @@ opcionalmente el tiempo de conexión de cada puerto.
 
 # No me colorea la sintaxys ¿Qué hago?
 
-Para que sps funcione correctamente necesita ser ejecutado con python3, con python2 puede presentar problemas al colorear el output.
+Para que sps funcione correctamente necesita ser ejecutado con python3, con python2  puede presentar problemas al colorear el output.
 
 # ¿Qué licencia usa?
 
