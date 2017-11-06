@@ -13,4 +13,5 @@ if [ -f /usr/bin/sps ]; then
 	exit 0
 else
 	echo "Unexpected ERROR during installation!"
+	exit 1
 fi
