@@ -9,8 +9,8 @@ else
 fi
 
 if [ -f /usr/bin/sps ]; then
-	echo "sps instalado con éxito en /usr/bin/sps"
+	echo "sps installed correctly in /usr/bin/sps"
 	exit 0
 else
-	echo "¡ERROR inesperado durante la instalación!"
+	echo "Unexpected ERROR during installation!"
 fi
